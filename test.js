@@ -8,7 +8,7 @@
          url: queryURL,
          method: "GET"
        }).done(function(response) {
-        
+           console.log(response);
            console.log("buzz");
        });    
     });

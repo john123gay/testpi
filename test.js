@@ -2,7 +2,7 @@
   $("#buzzbutton").on("click", function() {
 
 
-    var queryURL = "http://69.113.126.184:5050/?TEST&BLINK";
+    var queryURL = "https://69.113.126.184:5050/?TEST&BLINK";
     
     $.ajax({
          url: queryURL,

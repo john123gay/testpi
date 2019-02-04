@@ -6,7 +6,8 @@
     
     $.ajax({
          url: queryURL,
-         method: "GET"
+         method: "GET",
+         crossOrigin: true
        }).done(function(response) {
            console.log(response);
            console.log("buzz");
